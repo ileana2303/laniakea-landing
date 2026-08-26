@@ -48,6 +48,14 @@ export function Mail(props: P) {
   return <svg {...base} {...props}><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m4 7 8 6 8-6" /></svg>;
 }
 
+export function LinkedIn(props: P) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z" />
+    </svg>
+  );
+}
+
 export function Building(props: P) {
   return <svg {...base} {...props}><path d="M4 22V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v18" /><path d="M2 22h20" /><path d="M8 6h5M8 10h5M8 14h5M8 18h5" /><path d="M17 9h3a1 1 0 0 1 1 1v12" /></svg>;
 }

@@ -8,6 +8,7 @@ import {
   Code,
   Compass,
   Layers,
+  LinkedIn,
   Mail,
   Phone,
   Pin,
@@ -455,7 +456,9 @@ export default function Home() {
 
               <div className="rounded-2xl border border-white/[0.09] bg-white/[0.035] p-5">
                 <div className="flex items-center gap-3 text-violet-300">
-                  <Phone className="h-5 w-5" />
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full border border-violet-300/70">
+                    <ArrowUpRight className="h-3.5 w-3.5" />
+                  </span>
                   <span className="text-[11px] font-bold uppercase tracking-[0.18em]">
                     Επικοινωνία
                   </span>
@@ -485,6 +488,20 @@ export default function Home() {
                       <span className="mt-1 block break-all">
                         vectordeveloper.greece@gmail.com
                       </span>
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/laniakea-software-development/about/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-start gap-3 transition hover:text-white"
+                  >
+                    <LinkedIn className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" />
+                    <span>
+                      <span className="block text-[10px] uppercase tracking-[0.14em] text-white/28">
+                        LinkedIn
+                      </span>
+                      <span className="mt-1 block">Laniakea Software Development</span>
                     </span>
                   </a>
                 </div>
